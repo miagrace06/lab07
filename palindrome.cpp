@@ -14,7 +14,7 @@ int main() {
     // 4. Print out message accordingly (see examples given)
     string s;
 
-    cout << "Enter sentence: ";
+    cout << "Enter sentence:";
     getline(cin, s);
     cout << endl;
 
