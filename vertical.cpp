@@ -16,7 +16,7 @@ int main() {
     cin >> n;
 
     //Check if input is negative
-    if (n < 0) {
+    if (n <= 0) {
         cout << "Input must be a positive integer." << endl;
     } else {
 	//Call recusrive function to print digits
@@ -29,7 +29,7 @@ int main() {
 //Recusrive function to print digits vertically
 void printV(long int n){
     //Base case: stop when number becomes less than 0
-    if (n < 0) {
+    if (n <= 0) {
     	return;
 	}
     //Recusrively process the number by dividing by 10
