@@ -16,6 +16,7 @@ int main() {
 
     cout << "Enter sentence: ";
     getline(cin, s);
+    cout << endl;
 
     cleanUp(s);
 
