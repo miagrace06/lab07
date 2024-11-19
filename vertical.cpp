@@ -12,7 +12,7 @@ int main() {
     cout << "Enter integer: ";
     cin >> n;
 
-    if (n <= 0) {
+    if (n < 0) {
         cout << "Input must be a positive integer." << endl;
     } else {
 	printV(n);
